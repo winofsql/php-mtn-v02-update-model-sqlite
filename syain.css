@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#content {
+    margin: 26px;
+}
+
+.entry {
+    display: inline-block;
+}
+.left {
+    width: 100px;
+}
+.right {
+    width: 300px;
+}
