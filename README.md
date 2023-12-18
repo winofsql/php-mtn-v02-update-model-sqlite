@@ -90,3 +90,6 @@
       id="scode"
       value="<?= $_POST["scode"] ?>">
   ```
+  - required
+  - maxlength
+  - pattern
