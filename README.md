@@ -84,6 +84,7 @@
     - margin left ( left => start )
     - margin right ( right => end )
   - btn btn-primary
+    - 青いボタン
 - 社員コード入力に HTML 側でチェック処理を追加
   ```html
   <input class="form-control"
