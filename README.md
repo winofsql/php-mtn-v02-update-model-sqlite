@@ -40,7 +40,8 @@
   
   }
   ```
-- form のチェック用 JavaScript 関数を実装
+- form のチェック用 JavaScript 関数を実装\
+  ✅ syain-view.php
   ```JavaScript
   // ******************************
   // 確認ボタンの時の送信チェック
