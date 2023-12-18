@@ -83,7 +83,7 @@
   - ms-5
     - margin left ( left => start )
     - margin right ( right => end )
-  - btn btn-primary
+  - [btn btn-primary](https://getbootstrap.jp/docs/5.3/components/buttons/#%E3%83%90%E3%83%AA%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
     - 青いボタン\
       ![image](https://github.com/winofsql/php-mtn-v02-update-model-sqlite/assets/1501327/915d905b-8136-4361-8124-55d867a893a3)
  
