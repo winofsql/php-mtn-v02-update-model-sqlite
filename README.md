@@ -20,4 +20,10 @@
   }
   ```
 - 更新ボタンの横にメッセージエリアを追加
+```html
+<div class="mt-4">
+    <input type="submit" name="btn" id="btn" class="btn btn-primary" value="更新">
+    <span class="ms-5"><?= $_POST["message"] ?></span>
+</div>
+```
 - 社員コード入力に HTML 側でチェック処理を追加
