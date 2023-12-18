@@ -17,6 +17,27 @@
   function update( $sqlite ) {
   }
   ```
+  ```php
+  // データ表示処理
+  if ( $_POST["btn"] == "確認" ) {
+  
+      $row = check($sqlite);
+      if ( $row ) {
+          // 存在したので修正用処理
+      }
+      else {
+          // 存在しなかったので新規用処理
+          $_POST["message"] = "新規登録です";
+      }
+  }
+  
+  // データ更新処理
+  if ( $_POST["btn"] == "更新" ) {
+  
+      update( $sqlite );
+  
+  }
+  ```
 - form のチェック用 JavaScript 関数を実装
   ```JavaScript
   // ******************************
