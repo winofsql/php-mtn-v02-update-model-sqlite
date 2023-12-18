@@ -5,5 +5,19 @@
 
 - model.php を追加して処理を分化
 - form のチェック用 JavaScript 関数を実装
+  ```JavaScript
+  // ******************************
+  // 確認ボタンの時の送信チェック
+  // ******************************
+  function check(){
+      var scode = $("#scode").val();
+      if ( scode.length != 4 ) {
+          alert("社員コードを4桁入力してください");
+          return false;
+      }
+  
+      return true;
+  }
+  ```
 - 更新ボタンの横にメッセージエリアを追加
 - 社員コード入力に HTML 側でチェック処理を追加
