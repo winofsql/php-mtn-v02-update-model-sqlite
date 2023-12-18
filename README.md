@@ -99,6 +99,6 @@
       id="scode"
       value="<?= $_POST["scode"] ?>">
   ```
-  - required
+  - [required](https://www.htmq.com/html5/input_required.shtml)
   - maxlength
   - pattern
