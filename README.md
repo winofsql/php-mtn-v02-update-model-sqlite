@@ -65,8 +65,8 @@
       return true;
   }
   ```
-  [$("#scode").val()](https://api.jquery.com/val/)
-  [scode.length](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+  - [$("#scode").val()](https://api.jquery.com/val/)
+  - [scode.length](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/length)
   ```html
   <form method="post"
       onsubmit="return check()">
