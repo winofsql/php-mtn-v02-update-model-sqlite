@@ -27,3 +27,14 @@
   </div>
   ```
 - 社員コード入力に HTML 側でチェック処理を追加
+```html
+<input class="form-control"
+    required
+    maxlength="4"
+    pattern="[0-9]+"
+    placeholder="9999"
+    type="text"
+    name="scode"
+    id="scode"
+    value="<?= $_POST["scode"] ?>">
+```
