@@ -4,6 +4,7 @@
 
 
 - model.php を追加して処理を分化
+  ✅ model.php 
   ```php
   // **************************
   // 社員コードで存在チェック
@@ -17,6 +18,7 @@
   function update( $sqlite ) {
   }
   ```
+  ✅ syain.php
   ```php
   // データ表示処理
   if ( $_POST["btn"] == "確認" ) {
