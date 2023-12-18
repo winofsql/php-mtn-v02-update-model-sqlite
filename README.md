@@ -2,7 +2,16 @@
 
 ![image](https://github.com/winofsql/php-mtn-v02-update-model-sqlite/assets/1501327/2690cf24-65c7-4e01-a958-b645ffa68f8a)
 
-
+- SQLに対する入力値の埋め込みは、bindValue
+  ```php
+  $query = "select * from 社員マスタ where 社員コード = :scode";
+  
+  try {
+      $stmt = $sqlite->prepare($query);
+      $stmt->bindValue( ':scode', $_POST["scode"], PDO::PARAM_STR );
+      $stmt->execute();
+  }
+  ```
 - model.php を追加して処理を分化\
   ✅ model.php 
   ```php
