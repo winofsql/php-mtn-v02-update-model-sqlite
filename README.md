@@ -78,6 +78,11 @@
       <span class="ms-5"><?= $_POST["message"] ?></span>
   </div>
   ```
+  - mt-4
+    - margin top
+  - ms-5
+    - margin left ( left => start )
+    - margin right ( right => end )
 - 社員コード入力に HTML 側でチェック処理を追加
   ```html
   <input class="form-control"
