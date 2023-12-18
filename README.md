@@ -2,7 +2,7 @@
 
 ![image](https://github.com/winofsql/php-mtn-v02-update-model-sqlite/assets/1501327/2690cf24-65c7-4e01-a958-b645ffa68f8a)
 
-- SQLに対する入力値の埋め込みは、bindValue
+- SQLに対する入力値の埋め込みは、[bindValue](https://www.php.net/manual/ja/pdostatement.bindvalue.php)
   ```php
   $query = "select * from 社員マスタ where 社員コード = :scode";
   
