@@ -65,6 +65,7 @@
       return true;
   }
   ```
+  [$("#scode").val()](https://api.jquery.com/val/)
   ```html
   <form method="post"
       onsubmit="return check()">
