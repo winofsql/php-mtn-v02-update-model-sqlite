@@ -85,6 +85,8 @@
     - margin right ( right => end )
   - btn btn-primary
     - 青いボタン
+      ![image](https://github.com/winofsql/php-mtn-v02-update-model-sqlite/assets/1501327/915d905b-8136-4361-8124-55d867a893a3)
+ 
 - 社員コード入力に HTML 側でチェック処理を追加
   ```html
   <input class="form-control"
