@@ -32,6 +32,10 @@
       return true;
   }
   ```
+  ```html
+  <form method="post"
+      onsubmit="return check()">
+  ```
 - 更新ボタンの横にメッセージエリアを追加
   ```html
   <div class="mt-4">
